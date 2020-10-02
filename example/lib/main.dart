@@ -37,8 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CustomSwitch(
-              activeColor: Colors.pinkAccent,
+              activeColor: Colors.green,
               value: status,
+              showOnOff: true,
               onChanged: (value) {
                 print("VALUE : $value");
                 setState(() {
